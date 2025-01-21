@@ -1,1 +1,1 @@
-# cursed-java
+# Cursed Java
