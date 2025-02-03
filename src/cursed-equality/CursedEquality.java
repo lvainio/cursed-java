@@ -38,5 +38,18 @@ public class CursedEquality {
 
         System.out.println("(c1 == c2) = " + (c1 == c2));
         System.out.println("(c3 == c4) = " + (c3 == c4));
+
+        Boolean b1 = Boolean.valueOf(true);
+        Boolean b2 = Boolean.valueOf(true);
+        Boolean b3 = new Boolean(true);
+        Boolean b4 = new Boolean(true);
+
+        System.out.println("b1 = " + b1);
+        System.out.println("b2 = " + b2);
+        System.out.println("b3 = " + b3);
+        System.out.println("b4 = " + b4);
+
+        System.out.println("(b1 == b2) = " + (b1 == b2));
+        System.out.println("(b3 == b4) = " + (b3 == b4));
     }
 }
