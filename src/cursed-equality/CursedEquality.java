@@ -1,4 +1,5 @@
 public class CursedEquality {
+    @SuppressWarnings("removal")
     public static void main(String... args) {
         Integer i1 = 3;
         Integer i2 = 3;
@@ -51,5 +52,11 @@ public class CursedEquality {
 
         System.out.println("(b1 == b2) = " + (b1 == b2));
         System.out.println("(b3 == b4) = " + (b3 == b4));
+
+        int a = 1;
+        int b = 1;
+        boolean c = true;
+        System.out.println(a == b == c);
+
     }
 }
